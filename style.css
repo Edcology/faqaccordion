@@ -82,18 +82,33 @@ hr {
         display: block;
         
     }
+
+    h1 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+
+    .accordion-text {
+        font-size: 16px;
+    }
     
+    .star {
+        width: 30px;
+    }
+        
     #bgimage {
         background: url(./assets/images/background-pattern-desktop.svg);
         width: 100%;
         /* margin-top: -100px; */
         margin-top: 0;
         padding: 0;
-        height: 250px;
+        height: 300px;
     }
 
     main {
-        margin-top: -320px;
+        margin-top: -300px;
         width: 100%;
         display: grid;
     }
